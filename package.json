@@ -1,0 +1,19 @@
+{
+  "author": "Jakub Oboza <jakub.oboza@gmail.com> (no-fucking-idea.com)",
+  "name": "Stalker",
+  "description": "websocket text file streaming",
+  "version": "0.0.0",
+  "homepage": "no-fucking-idea.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R landing spec/*.spec.js"
+  },
+  "dependencies": {
+    "socket.io": ">= 0.0.0"
+    },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  }
+}
